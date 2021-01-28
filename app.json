@@ -1,0 +1,30 @@
+{
+  "expo": {
+    "name": "Loja",
+    "slug": "Loja",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./app/assets/icon.png",
+    "splash": {
+      "image": "./app/assets/icon.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./app/assets/adaptive-icon.png",
+        "backgroundColor": "#FFFFFF"
+      },
+      "package": "com.carlosrodrigues1993.Loja"
+    },
+    "web": {
+      "favicon": "./app/assets/favicon.png"
+    }
+  }
+}
